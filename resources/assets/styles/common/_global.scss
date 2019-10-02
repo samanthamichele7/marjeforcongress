@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-mfcDarkBlue font-header italic;
+}
+
+h1 {
+  @apply font-bold my-12 text-3xl;
+}
+
+h2 {
+  @apply font-bold my-8 text-2xl;
+}
+
+h3 {
+  @apply font-bold my-4 text-lg;
+}
+
+p {
+  @apply my-3 leading-normal;
+}
+
+a {
+  @apply no-underline border-b border-transparent;
+
+  transition: 0.2s ease;
+}
+
+ul {
+  @apply list-disc;
+}
+
+li {
+  @apply ml-8 mb-4;
+}
