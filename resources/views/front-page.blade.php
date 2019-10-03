@@ -20,5 +20,19 @@
         @include('partials.content-page-'.get_post_type())
     @endwhile
   </div>
+
+  <div class="w-full h-128 bg-mfcLightBlue flex flex-col items-center justify-center">
+    <div class="text-2xl text-white font-header italic font-bold mx-auto mb-8">Plant a Seed</div>
+
+    <p class="text-white mb-8">Donate today to support Marje's campaign</p>
+    <div class="text-center">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="JSLJTC957PTCJ" />
+            <button class="bg-mfcGreen hover:bg-green-600 text-white font-bold py-4 px-8 rounded" type="submit">Donate with PayPal</button>
+            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+    </div>
+  </div>
 @endsection
 
