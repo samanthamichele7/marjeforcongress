@@ -24,7 +24,7 @@
   <div class="w-full h-128 bg-mfcLightBlue flex flex-col items-center justify-center">
     <div class="text-2xl text-white font-header italic font-bold mx-auto mb-8">Plant a Seed</div>
 
-    <p class="text-white mb-8">Donate today to support Marje's campaign</p>
+    <p class="text-white mb-8">Donate today to invest in each other and support Marje's campaign</p>
     <div class="text-center">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick" />
