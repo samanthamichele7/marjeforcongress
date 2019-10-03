@@ -5,7 +5,9 @@
 
   <div class="flex flex-wrap">
     <div class="w-full md:w-1/2 bg-mfcDarkBlue flex items-center justify-center">
-        <img src="@asset('images/logo-light.png')" alt="Marje for Congress logo" class="h-64" />
+        <div class="h-64 flex items-center justify-center">
+            <img src="@asset('images/logo-light.png')" alt="Marje for Congress logo" class="h-24 md:h-32 lg:h-48" />
+        </div>
     </div>
 
     <div class="w-full md:w-1/2">
