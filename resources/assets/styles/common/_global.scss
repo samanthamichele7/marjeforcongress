@@ -19,14 +19,19 @@ h3 {
   @apply font-bold my-4 text-lg;
 }
 
-p {
-  @apply my-3 leading-normal;
+p,
+li {
+  @apply my-3 leading-loose text-gray-700;
 }
 
 a {
-  @apply no-underline border-b border-transparent;
+  @apply no-underline border-b border-transparent text-mfcDarkBlue;
 
   transition: 0.2s ease;
+
+  &:hover {
+    @apply text-mfcLightBlue;
+  }
 }
 
 ul {
@@ -35,4 +40,36 @@ ul {
 
 li {
   @apply ml-8 mb-4;
+}
+
+.slideshow {
+  @apply overflow-hidden relative;
+
+  img {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  img.next {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  img.prev {
+    opacity: 1;
+    z-index: 2;
+  }
+
+  img.fade-out {
+    opacity: 0;
+    transition: visibility 0s 0.5s, opacity 0.5s linear;
+    visibility: hidden;
+  }
 }
