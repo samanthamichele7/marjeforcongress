@@ -6,7 +6,7 @@
   <div class="flex flex-wrap">
     <div class="w-full md:w-1/2 bg-mfcDarkBlue flex items-center justify-center">
         <div class="h-64 flex items-center justify-center">
-            <img src="@asset('images/logo-light.png')" alt="Marje for Congress logo" class="h-48 lg:h-64" />
+            <img src="@asset('images/logo-light.png')" alt="Marje for Congress logo" class="h-36 sm:h-48 lg:h-64" />
         </div>
     </div>
 
@@ -39,7 +39,7 @@
 
         <div class="text-xl text-mfcDarkBlue font-header italic font-bold mx-auto mt-8 mb-4">What am I turning up for?</div>
 
-        <ul class="mb-16">
+        <ul class="mb-8 lg:mb-16">
             <li>
                 Economic security in the form of livable wages, improvement in global trade negotiations that affect the price of steel, lumber, 
                 and farm production, and exploring new opportunities for economic growth.
@@ -67,7 +67,7 @@
     </div>
 
     <div class="w-full lg:w-2/5">
-        <img src="@asset('images/homepage/marje.jpg')" alt="Marje photo" class="rounded-full p-8 mx-auto" />
+        <img src="@asset('images/homepage/marje.jpg')" alt="Marje photo" class="rounded-full p-4 md:p-8 mx-auto lg:-mr-8 mb-8" />
     </div>
   </div>
 
