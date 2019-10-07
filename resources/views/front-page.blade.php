@@ -109,13 +109,23 @@
   </div>
 
   <div class="w-full bg-mfcLightBlue flex flex-col items-center justify-center text-center py-8">
-    <div class="text-2xl text-white font-header italic font-bold mx-auto mb-4">Plant a Seed</div>
+    <div class="text-2xl text-white font-header italic font-bold mx-auto">Plant a Seed</div>
 
-    <p class="text-white mb-8 mx-16">Donate today to invest in each other and support Marje's campaign</p>
+    <p class="text-white mb-4 mx-16">Donate today to invest in each other and support Marje's campaign</p>
+
+    <div class="flex justify-between mb-4">
+        <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje?amount=5">$5</a>
+        <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje?amount=10">$10</a>
+        <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje?amount=25">$25</a>
+        <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje?amount=50">$50</a>
+        <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje?amount=100">$100</a>
+        <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje">$Other</a>
+    </div>
+
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="JSLJTC957PTCJ" />
-        <button class="bg-mfcGreen hover:bg-green-600 text-white font-bold py-4 px-8 rounded" type="submit">Donate with PayPal</button>
+        <input type="hidden" name="hosted_a_id" value="JSLJTC957PTCJ" />
+        <button class="bg-mfcGreen hover:bg-green-600 text-white mx-2 py-2 px-4 rounded" type="submit">Donate with PayPal</button>
         <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
     </form>
   </div>
