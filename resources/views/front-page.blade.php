@@ -68,9 +68,9 @@
         </div>
     </div>
 
-    <div class="pt-8 flex flex-wrap">
+    <div class="pt-8 flex flex-wrap items-center">
         <div class="w-full lg:w-1/2 xl:w-1/3">
-            <img src="@asset('images/homepage/cd8.png')" alt="MN CD8" class="pb-16 lg:pr-16 lg:pt-16 h-128 h-auto w-64 md:w-128 mx-auto" />
+            <img src="@asset('images/homepage/cd8.png')" alt="MN CD8" class="lg:pr-16 h-128 h-auto w-64 md:w-128 mx-auto" />
         </div>
 
         <div class="w-full lg:w-1/2 xl:w-2/3">
@@ -88,24 +88,28 @@
                 technology firm and earned enough to pay off my student loans within 3 years of graduating. What I wasn’t 
                 able to find, however, was a job that would bring me home again. 
             </p>
-
-            <p class="text-lg text-mfcDarkBlue italic font-bold pt-4">
-                What does that have to do with running for Congress?
-            </p>
-
-            <p class="text-gray-600">
-                The 8th district is the home of my heart. There is so much potential for great things in Northern 
-                Minnesota. The challenges are not impossible, and they come back to the values I learned in 
-                my childhood — work hard and help your neighbor. I want to keep worker’s rights strong so that we 
-                don’t lose ground on wages and safe work environments in dangerous conditions. I want to see affordable 
-                and accessible health care become a reality so that no one loses their home in order to stay alive. 
-                I want to work hard and help my neighbors in the home of my heart.  
-            </p>
         </div>
     </div>
+
+
+    <div>
+        <p class="text-lg text-mfcDarkBlue italic font-bold pt-4">
+            What does that have to do with running for Congress?
+        </p>
+
+        <p class="text-gray-600">
+            The 8th district is the home of my heart. There is so much potential for great things in Northern 
+            Minnesota. The challenges are not impossible, and they come back to the values I learned in 
+            my childhood — work hard and help your neighbor. I want to keep worker’s rights strong so that we 
+            don’t lose ground on wages and safe work environments in dangerous conditions. I want to see affordable 
+            and accessible health care become a reality so that no one loses their home in order to stay alive. 
+            I want to work hard and help my neighbors in the home of my heart.  
+        </p>
+    </div>
   </div>
-  <div class="w-full h-96 bg-mfcLightBlue flex flex-col items-center justify-center text-center">
-    <div class="text-2xl text-white font-header italic font-bold mx-auto mb-8">Plant a Seed</div>
+
+  <div class="w-full bg-mfcLightBlue flex flex-col items-center justify-center text-center py-8">
+    <div class="text-2xl text-white font-header italic font-bold mx-auto mb-4">Plant a Seed</div>
 
     <p class="text-white mb-8 mx-16">Donate today to invest in each other and support Marje's campaign</p>
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
