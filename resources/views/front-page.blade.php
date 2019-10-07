@@ -59,7 +59,7 @@
             </p>
 
             <p class="text-lg text-mfcDarkBlue italic font-bold">
-                People First — because we deserve a government that works for the people.
+                People First — because we deserve a government that works for us.
             </p>
         </div>
 
