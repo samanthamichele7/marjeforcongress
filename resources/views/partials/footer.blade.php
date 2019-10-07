@@ -1,6 +1,6 @@
 <footer class="content-info bg-mfcDarkBlue py-8">
-  <div class="container mx-auto flex flex-wrap">
-    <div class="w-full md:w-1/2 px-4 lg:px-16 mb-4">
+  <div class="container mx-auto flex flex-wrap pl-8">
+    <div class="w-full md:w-1/2 px-4 lg:pl-32 mb-4">
       <div class="text-xl text-white font-header italic font-bold ml-3">Stay Connected</div>
       <!-- Begin Mailchimp Signup Form -->
       <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
