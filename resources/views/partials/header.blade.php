@@ -4,7 +4,7 @@
       <a class="text-sm md:text-base" href="/bio">Bio</a>
       <a class="text-sm md:text-base" href="/events">Events</a>
       <a href="/"><img src="@asset('images/logo-dark.png')" class="h-16" /></a>
-      <a class="text-sm md:text-base" href="/platform">Platform</a>
+      <a class="text-sm md:text-base" href="/issues">Issues</a>
       <a class="text-sm md:text-base" href="/news">News</a>
     </nav>
   </div>
