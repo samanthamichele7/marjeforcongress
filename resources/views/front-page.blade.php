@@ -111,7 +111,7 @@
   <div class="w-full bg-mfcLightBlue flex flex-col items-center justify-center text-center py-8">
     <div class="text-2xl text-white font-header italic font-bold mx-auto">Plant a Seed</div>
 
-    <p class="text-white mb-4 mx-16">Donate today to invest in each other and support Marje's campaign</p>
+    <p class="text-white mb-4 mx-8 md:mx-16">Donate today to invest in each other and support Marje's campaign</p>
 
     <div class="flex justify-between mb-4">
         <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje?amount=5">$5</a>
