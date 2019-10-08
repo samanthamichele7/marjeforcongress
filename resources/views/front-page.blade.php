@@ -29,36 +29,36 @@
             <p>
                 In the course of my lifetime, I’ve observed that American government has shifted to promote and protect 
                 big money, big banks, and big business. It seems to me that policy and politics are driven by 
-                “Profit first, people second.”
+                “profit first, people second.”
             </p>
 
             <p>
-                I disagree with that direction for America. I believe — as Abraham Lincoln said — in “Government of the people, 
-                by the people, for the people.” I’m running because I want a government that puts people first. 
+                I disagree with that direction for America. I believe — as Abraham Lincoln said — in <i>“government of the people, 
+                by the people, for the people.”</i> I’m running because I want a government that puts people first. 
             </p>
 
 
-            <p>
+            <p class="ml-4 mt-8">
                 <span class="text-mfcDarkBlue italic font-bold">People First</span> means strong labor laws and unions to protect 
                 all who work, with livable wages that support a family on 40 hours of work.
             </p>
 
-            <p>
+            <p class="ml-4">
                 <span class="text-mfcDarkBlue italic font-bold">People First</span> means all citizens have access to 
                 affordable health care and prescription medication, and do not face bankruptcy in order to survive.
             </p>
 
-            <p>
+            <p class="ml-4">
                 <span class="text-mfcDarkBlue italic font-bold">People First</span> means we look for ways to expand 
                 economic opportunities through rural broadband initiatives and educational partnerships to bring 
                 world class education to our small towns and communities.
             </p>
 
-            <p>
+            <p class="ml-4">
                 <span class="text-mfcDarkBlue italic font-bold">People First</span> means we protect our democratic freedoms and every eligible vote counts.
             </p>
 
-            <p class="text-lg text-mfcDarkBlue italic font-bold">
+            <p class="text-lg text-mfcLightBlue italic font-bold mt-8 -mr-8">
                 People First — because we deserve a government that works for us.
             </p>
         </div>
@@ -94,12 +94,12 @@
 
     <div>
         <p class="text-lg text-mfcDarkBlue italic font-bold pt-4">
-            What does that have to do with running for Congress?
+            Why I want to represent CD8 in Congress
         </p>
 
         <p class="text-gray-600">
-            The 8th district is the home of my heart. There is so much potential for great things in Northern 
-            Minnesota. The challenges are not impossible, and they come back to the values I learned in 
+            The 8th district is the home of my heart, and I know Northern Minnesota has the potential for great things. 
+            The challenges are not impossible, and they come back to the values I learned in 
             my childhood — work hard and help your neighbor. I want to keep worker’s rights strong so that we 
             don’t lose ground on wages and safe work environments in dangerous conditions. I want to see affordable 
             and accessible health care become a reality so that no one loses their home in order to stay alive. 
@@ -109,11 +109,11 @@
   </div>
 
   <div class="w-full bg-mfcLightBlue flex flex-col items-center justify-center text-center py-8">
-    <div class="text-2xl text-white font-header italic font-bold mx-auto">Plant a Seed</div>
+    <div class="text-lg md:text-2xl text-white font-header italic font-bold mx-auto pb-2">Let's work together to put People First.</div>
 
-    <p class="text-white mb-4 mx-8 md:mx-16">Donate today to invest in each other and support Marje's campaign</p>
+    <p class="text-white mb-4 mx-8 md:mx-16">Donate via Act Blue</p>
 
-    <div class="flex justify-between mb-4">
+    <div class="flex justify-between mb-4 border-b border-gray-300 pb-4">
         <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje?amount=5">$5</a>
         <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje?amount=10">$10</a>
         <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje?amount=25">$25</a>
@@ -125,7 +125,7 @@
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick" />
         <input type="hidden" name="hosted_a_id" value="JSLJTC957PTCJ" />
-        <button class="bg-mfcGreen hover:bg-green-600 text-white mx-2 py-2 px-4 rounded" type="submit">Donate with PayPal</button>
+        <button class="bg-mfcGreen hover:bg-green-600 text-white mx-2 py-2 px-4 rounded" type="submit">Donate via PayPal</button>
         <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
     </form>
   </div>
