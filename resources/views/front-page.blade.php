@@ -125,7 +125,7 @@
   </div>
 
   <div class="w-full bg-mfcLightBlue flex flex-col items-center justify-center text-center py-8">
-    <div class="text-lg md:text-2xl text-white font-header italic font-bold mx-auto pb-2">Let's work together to put People First.</div>
+    <div class="text-lg md:text-2xl text-white font-header italic font-bold mx-auto pb-2 px-8">Let's work together to put People First.</div>
 
     <p class="text-white mb-4 mx-8 md:mx-16">Donate via Act Blue</p>
 
