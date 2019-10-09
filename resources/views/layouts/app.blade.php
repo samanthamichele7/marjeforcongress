@@ -1,10 +1,10 @@
 <!doctype html>
-<html {!! get_language_attributes() !!}>
+<html {!! get_language_attributes() !!} class="h-full">
   @include('partials.head')
-  <body @php body_class() @endphp>
+  <body class="flex flex-col h-full" @php body_class() @endphp>
     @php do_action('get_header') @endphp
     @include('partials.header')
-    <div class="wrap container mx-auto mb-16 px-8" role="document">
+    <div class="flex-1 wrap container mx-auto mb-16 px-8" role="document">
       <div class="content">
         <main class="main">
           @yield('content')

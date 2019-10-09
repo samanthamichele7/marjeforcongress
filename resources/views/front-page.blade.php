@@ -67,63 +67,57 @@
             <img src="@asset('images/homepage/marje.jpg')" alt="Marje photo" class="rounded-full p-4 md:p-8 mx-auto lg:-mr-8 mb-8" />
         </div>
     </div>
+  </div>
 
-    <div class="pt-8 flex flex-wrap items-center">
-        <div class="w-full lg:w-1/2 xl:w-1/3">
-            <img src="@asset('images/homepage/cd8.png')" alt="MN CD8" class="lg:pr-16 h-128 h-auto w-64 md:w-128 mx-auto" />
+  <div style="background: linear-gradient(180deg, white, rgba(141, 198, 63, 0.2), rgba(141, 198, 63, 0.5));">
+    <div class="container mx-auto pb-16 px-8 lg:px-12">
+        <div class="flex flex-wrap items-center lg:pb-8">
+            <div class="w-full lg:w-1/2 xl:w-1/3 mb-8 lg:mb-0 lg:pr-16">
+                <img src="@asset('images/homepage/cd8.png')" alt="MN CD8" class="h-128 h-auto w-64 md:w-128 mx-auto shadow" />
+            </div>
+
+            <div class="w-full lg:w-1/2 xl:w-2/3 mb-8 lg:mb-0">
+                <p class="text-gray-600 text-xl">
+                    I grew up on Minnesota’s Iron Range, a descendent of Finnish immigrant farmers and miners. I myself 
+                    spent a summer working in the fines crusher at Minntac — that third shift job paid for a year of college. 
+                    Coming from a family with five children, money was always tight, but love was always abundant. 
+                    I know that my dad’s job as a union steelworker and the government assistance we qualified for was one 
+                    of the reasons we had enough during lean years for American steel.   
+                </p>
+            </div>
         </div>
-
-        <div class="w-full lg:w-1/2 xl:w-2/3">
-            <p class="text-gray-600">
-                I grew up on Minnesota’s Iron Range, a descendent of Finnish immigrant farmers and miners. I myself 
-                spent a summer working in the fines crusher at Minntac — that third shift job paid for a year of college. 
-                Coming from a family with five children, money was always tight, but love was always abundant. 
-                I know that my dad’s job as a union steelworker and the government assistance we qualified for was one 
-                of the reasons we had enough during lean years for American steel.   
-            </p>
-
-            <p class="text-gray-600">
-                When I went to college, I was fortunate to have help in the form of Pell Grants, local scholarships, 
-                and teachers who encouraged me to push myself. When I graduated, I was recruited by a Fortune 500 
-                technology firm and earned enough to pay off my student loans within 3 years of graduating. What I wasn’t 
-                able to find, however, was a job that would bring me home again. 
-            </p>
-        </div>
-    </div>
-
-
-    <div>
+        
         <p class="text-lg text-mfcDarkBlue italic font-bold pt-4">
             Why I want to serve CD8 in Congress
         </p>
 
-        <p class="text-gray-600">
+        <p>
             My story is the story of all immigrant families, who start with the hope of a better future for 
             their children and work hard to make it reality.
         </p>
 
-        <p class="text-gray-600">
+        <p>
             I announced my campaign because I can’t stand politics.
         </p>
 
-        <p class="text-gray-600">
+        <p>
             We are living in an era where kindness, civility, concern, and obvious compassion for our neighbors 
             is absent from the national political conversation. 
         </p>
 
-        <p class="text-gray-600">
+        <p>
             We are living in an era where programs that have direct impact on the well-being of our most at-risk 
             citizens are losing funding and meaningful change is nearly impossible because politicians deny 
             that they have control over these policy choices.
         </p>
 
-        <p class="text-gray-600">
+        <p>
             We are living in an era with some of the greatest economic disparity in history because shareholders 
             are placed at a higher value than the workers who create the products being sold. Economic prosperity 
             is not easily accessible if you weren’t already born into economic prosperity. 
         </p>
 
-        <p class="text-gray-600">
+        <p class="font-bold">
             I’m running because I can’t stand politics, and if I don’t stand up and use the skills and talents given to 
             me to try to change that, the future that I will leave to my own children will be worse than the one granted to me. 
         </p>
