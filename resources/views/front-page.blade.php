@@ -94,16 +94,38 @@
 
     <div>
         <p class="text-lg text-mfcDarkBlue italic font-bold pt-4">
-            Why I want to represent CD8 in Congress
+            Why I want to serve CD8 in Congress
         </p>
 
         <p class="text-gray-600">
-            The 8th district is the home of my heart, and I know Northern Minnesota has the potential for great things. 
-            The challenges are not impossible, and they come back to the values I learned in 
-            my childhood — work hard and help your neighbor. I want to keep worker’s rights strong so that we 
-            don’t lose ground on wages and safe work environments in dangerous conditions. I want to see affordable 
-            and accessible health care become a reality so that no one loses their home in order to stay alive. 
-            I want to work hard and help my neighbors in the home of my heart.  
+            My story is the story of all immigrant families, who start with the hope of a better future for 
+            their children and work hard to make it reality.
+        </p>
+
+        <p class="text-gray-600">
+            I announced my campaign because I can’t stand politics.
+        </p>
+
+        <p class="text-gray-600">
+            We are living in an era where kindness, civility, concern, and obvious compassion for our neighbors 
+            is absent from the national political conversation. 
+        </p>
+
+        <p class="text-gray-600">
+            We are living in an era where programs that have direct impact on the well-being of our most at-risk 
+            citizens are losing funding and meaningful change is nearly impossible because politicians deny 
+            that they have control over these policy choices.
+        </p>
+
+        <p class="text-gray-600">
+            We are living in an era with some of the greatest economic disparity in history because shareholders 
+            are placed at a higher value than the workers who create the products being sold. Economic prosperity 
+            is not easily accessible if you weren’t already born into economic prosperity. 
+        </p>
+
+        <p class="text-gray-600">
+            I’m running because I can’t stand politics, and if I don’t stand up and use the skills and talents given to 
+            me to try to change that, the future that I will leave to my own children will be worse than the one granted to me. 
         </p>
     </div>
   </div>
