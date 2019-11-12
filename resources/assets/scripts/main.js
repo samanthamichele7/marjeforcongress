@@ -74,8 +74,8 @@ class Slideshow {
 
 // Load Events
 jQuery(document).ready(() => {
-  routes.loadEvents()
-  new Slideshow()
+  routes.loadEvents();
+  new Slideshow();
 });
 
 jQuery(document).ready(function() {});

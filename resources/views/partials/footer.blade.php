@@ -62,7 +62,7 @@
       </div>
 
       <div class="w-full md:w-1/2 py-8 text-center">
-        <div class="fb-page w-full" data-href="https://www.facebook.com/MarjeForCongress/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MarjeForCongress/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MarjeForCongress/">Marje for Congress 2020</a></blockquote></div>
+        <div class="fb-page" data-href="https://www.facebook.com/MarjeForCongress/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MarjeForCongress/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MarjeForCongress/">Marje for Congress 2020</a></blockquote></div>
       </div>
     </div>
   </div>
