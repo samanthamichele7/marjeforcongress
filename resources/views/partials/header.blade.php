@@ -2,7 +2,7 @@
   <!-- Desktop -->
   <div class="hidden lg:flex items-center justify-between mx-auto container py-4">
     <a class="text-sm md:text-base" href="/bio">Bio</a>
-    <a class="text-sm md:text-base" href="/events">Events</a>
+    <a class="text-sm md:text-base" href="https://www.brightest.io/cause/marjeforcongress" target="__blank">Get Involved</a>
     <a href="/"><img src="@asset('images/logo-dark.png')" class="h-16" /></a>
     <a class="text-sm md:text-base" href="/issues">Issues</a>
     <a class="text-sm md:text-base" href="/news">News</a>
