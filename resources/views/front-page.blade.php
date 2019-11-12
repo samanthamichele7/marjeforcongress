@@ -4,136 +4,27 @@
   @include('partials.page-header')
 
   <div class="flex flex-wrap">
-    <div class="w-full md:w-1/2 bg-mfcDarkBlue flex items-center justify-center">
-        <div class="h-64 flex items-center justify-center">
+    <div class="w-full md:w-2/3">
+        <div class="bg-mfcDarkBlue h-96 flex items-center justify-center">
             <img src="@asset('images/logo-light.png')" alt="Marje for Congress logo" class="h-36 sm:h-48 lg:h-64" />
         </div>
-    </div>
 
-    <div class="w-full md:w-1/2 slideshow h-96" data-slideshow>
-        <img src="@asset('images/homepage/1.jpg')" class="h-96" />
-        <img src="@asset('images/homepage/2.jpg')" class="h-96" />
-        <img src="@asset('images/homepage/3.jpg')" class="h-96" />
-        <img src="@asset('images/homepage/4.jpg')" class="h-96" />
-        <img src="@asset('images/homepage/5.jpg')" class="h-96" />
-        <img src="@asset('images/homepage/6.jpg')" class="h-96" />
-        <img src="@asset('images/homepage/7.jpg')" class="h-96" />
-    </div>
-  </div>
-
-  <div class="w-full bg-mfcGreen py-8">
-    <!-- Begin Mailchimp Signup Form -->
-        <style type="text/css">
-            #mc_embed_signup div.mce_inline_error {
-                background-color: #8DC63F !important;
-            }
-
-            #mc_embed_signup div#mce-responses {
-                float: none !important;
-                text-align: center !important;
-            }
-
-            #mc_embed_signup #mce-success-response, #mc_embed_signup #mce-error-response {
-                color: white !important;
-                margin: 0 0 20px 0 !important;
-                padding: 0 !important;
-                text-align: center !important;
-                width: 100% !important;
-            }
-            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-        </style>
-
-        <div class="text-2xl text-white font-header italic font-bold text-center pb-4">Join My Campaign</div>
-
-        <div id="mc_embed_signup" class="container mx-auto">
-            <form 
-                action="https://marjeforcongress.us20.list-manage.com/subscribe/post?u=7914cf387522b9567f7cb4c6a&amp;id=dbb1d92f4d" 
-                method="post" 
-                id="mc-embedded-subscribe-form" 
-                name="mc-embedded-subscribe-form" 
-                class="validate" 
-                target="_blank" 
-                novalidate
-            >
-                <div id="mce-responses">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7914cf387522b9567f7cb4c6a_dbb1d92f4d" tabindex="-1" value=""></div>
-
-                <div id="mc_embed_signup_scroll" class="flex flex-wrap lg:flex-no-wrap lg:flex-row lg:justify-between">
-                    <div class="mc-field-group w-full sm:w-1/2 lg:w-full pr-4 lg:pr-1 mb-2">
-                        <input 
-                            type="email" 
-                            value="" 
-                            name="EMAIL" 
-                            class="bg-white focus:outline-none focus:shadow-outline border border-mfcDarkBlue py-2 px-4 w-full"
-                            id="mce-EMAIL" 
-                            placeholder="Email (Required)" 
-                        />
-                    </div>
-
-                    <div class="mc-field-group w-full sm:w-1/2 lg:w-full pr-4 lg:pr-1 mb-2">
-                        <input 
-                            type="text" 
-                            value="" 
-                            name="FNAME" 
-                            class="bg-white focus:outline-none focus:shadow-outline border border-mfcDarkBlue py-2 px-4 w-full"
-                            id="mce-FNAME"
-                            placeholder="First Name"
-                        />
-                    </div>
-                    
-                    <div class="mc-field-group w-full sm:w-1/2 lg:w-full pr-4 lg:pr-1 mb-2">
-                        <input 
-                            type="text" 
-                            value="" 
-                            name="LNAME" 
-                            class="bg-white focus:outline-none focus:shadow-outline border border-mfcDarkBlue py-2 px-4 w-full"
-                            id="mce-LNAME"
-                            placeholder="Last Name"
-                        />
-                    </div>
-
-                    <div class="mc-field-group w-full sm:w-1/2 lg:w-full pr-4 lg:pr-1 mb-2">
-                        <input 
-                            type="text" 
-                            value="" 
-                            name="PHONE" 
-                            class="bg-white focus:outline-none focus:shadow-outline border border-mfcDarkBlue py-2 px-4 w-full"
-                            id="mce-PHONE"
-                            placeholder="Phone"
-                        />
-                    </div>
-
-                    <div class="mc-field-group w-full sm:w-1/2 lg:w-full pr-4 lg:pr-1 mb-2">
-                        <input 
-                            type="text" 
-                            value="" 
-                            name="MMERGE6" 
-                            class="bg-white focus:outline-none focus:shadow-outline border border-mfcDarkBlue py-2 px-4 appearance-none w-full leading-normal"
-                            id="mce-MMERGE6"
-                            placeholder="Zip"
-                        />
-                    </div>
-                        
-                    <div class="text-center w-full lg:text-left">
-                        <input 
-                            type="submit" 
-                            value="Submit" 
-                            name="subscribe" 
-                            id="mc-embedded-subscribe" 
-                            class="bg-mfcLightBlue hover:bg-green-600 text-white py-2 px-8 rounded"
-                        />
-                    </div>
-                </div>
-            </form>
+        <div class="slideshow h-128" data-slideshow>
+            <img src="@asset('images/homepage/1.jpg')" class="h-96" />
+            <img src="@asset('images/homepage/2.jpg')" class="h-96" />
+            <img src="@asset('images/homepage/3.jpg')" class="h-96" />
+            <img src="@asset('images/homepage/4.jpg')" class="h-96" />
+            <img src="@asset('images/homepage/5.jpg')" class="h-96" />
+            <img src="@asset('images/homepage/6.jpg')" class="h-96" />
+            <img src="@asset('images/homepage/7.jpg')" class="h-96" />
         </div>
-        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-        <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[6]='MMERGE6';ftypes[6]='zip';}(jQuery));var $mcj = jQuery.noConflict(true);
-        </script>
-        <!--End mc_embed_signup-->
+    </div>
+
+    <div class="w-full md:w-1/3 bg-mfcGreen">
+        <div class="mx-auto text-center">
+            <link href="https://brightest-production.s3.amazonaws.com/static/css/embed.css" rel="stylesheet" /> <div id="brightest-embed-form-073fc2d2d92b40198cd77f0154786b5a"></div> <script type="text/javascript"> var brightest_embedded_form_context = { formLink: "https://www.brightest.io/cause/marjeforcongress/embed/712/", target: "brightest-embed-form-073fc2d2d92b40198cd77f0154786b5a" }; </script> <script src="https://brightest-production.s3.amazonaws.com/static/js/embed.js"></script>
+        </div>
+    </div>
   </div>
 
   <div class="container mx-auto my-16 px-8 lg:px-12">
@@ -237,31 +128,6 @@
             me to try to change that, the future that I will leave to my own children will be worse than the one granted to me. 
         </p>
     </div>
-  </div>
-
-  <div class="w-full bg-mfcLightBlue flex flex-col items-center justify-center text-center py-8">
-    <div class="text-lg md:text-2xl text-white font-header italic font-bold mx-auto pb-2 px-8">Let's work together to put People First.</div>
-
-    <p class="text-white mb-4 mx-8 md:mx-16">Donate via Act Blue</p>
-
-    <div class="flex justify-between mb-4 border-b border-gray-300 pb-4">
-        <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje?amount=5">$5</a>
-        <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje?amount=10">$10</a>
-        <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje?amount=25">$25</a>
-        <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje?amount=50">$50</a>
-        <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje?amount=100">$100</a>
-        <a class="bg-white hover:bg-gray-200 border border-gray-500 text-mfcDarkBlue font-bold mx-1 md:mx-2 py-2 px-2 rounded text-xs sm:text-sm" href="https://secure.actblue.com/donate/marje">$Other</a>
-    </div>
-
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="JSLJTC957PTCJ" />
-        <div class="bg-mfcGreen hover:bg-green-600 text-white mx-2 pt-2 pb-3 px-4 rounded cursor-pointer">
-            <span class="absolute mt-1">Donate Via Paypal</span>
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" class="opacity-0 h-6 w-32" />
-        </div>
-        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-    </form>
   </div>
 @endsection
 
