@@ -4,7 +4,7 @@
     <div class="container mx-auto flex flex-wrap">
       <div class="w-full md:w-1/2 px-4 lg:pl-32 mb-4 text-center md:text-left flex items-center">
       
-        <div class="font-bold flex flex-col w-full">
+        <div class="font-bold flex flex-col w-full my-8">
             <a 
               href="https://twitter.com/marje2020"
               class="flex items-center text-white hover:text-mfcLightBlue mb-4 w-1/2"
